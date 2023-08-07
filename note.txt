@@ -1,0 +1,44 @@
+
+The folder Structures of a Next JS Application Project:
+
+1. app - folder:-
+The folder contain all of files that we work. All of our files or folder that will be used to develop the application are located in the "app" folder. Eg: component, pages, css, layout etc.
+
+1(a): favicon.ico - file:-
+It is the favicon icon showing in the browser icon.
+
+1(b): global.css - file:-
+The file contains the global css for the application.
+
+1(c): layout - file:-
+The file is used to making a master layout for application to enhace the loading performance of the application.
+
+1(d): page.js - file:-
+It is the root page of the application:
+
+1(e): page.module.css - file:-
+It contain the css that used to making css for the page component.
+
+2. node_modules - folder:-
+The folder contains the requires files and folders for our packages that we used to develop the application. We dont need to modify or delete the files or folders. 
+
+3. public - folder:-
+The public folder contains the all of assets that used to develop the application. The assets are all static.
+
+4. .gitignore - file:-
+The file is used for ignoring some personal files or others files or folders to avoid uploading some files or folders in the github.
+
+5. jsconfig - file:-
+The file maintain the path of the application.
+
+6. next.config.js - file:-
+The file controls all of the application settings.
+
+7. package-lock.json - file:-
+Automatically generated for any operations where npm modifies either the node_modules tree, or package. json
+
+8. package.json - file:-
+Its manage the virsions of dependencies used in the application for development.
+
+9. README.md - file:-
+The file is a simple instruction to run the project in the development mode.
